@@ -1,3 +1,4 @@
+@import "simplelightbox/dist/simple-lightbox.min.css";
 * {
   box-sizing: border-box;
 }
@@ -12,3 +13,49 @@ body {
   line-height: 1.5;
 }
 
+.is-hidden{
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.search-form{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    }
+
+
+.photo-card{
+  width: 290px;
+  margin: 15px;
+  flex-basis: calc((100% - 230px) / 4);
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+  0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.photo-card__img{
+  object-fit: cover;
+  max-width: 290px;
+display: block;
+}
+.info{
+  display: flex;
+  justify-content: center;
+}
+.info-item:not(:last-child){
+  margin: 10px;
+}
+.load-more{
+    display: block;
+    margin: 0 auto;
+}

@@ -15,9 +15,9 @@ export default class ApiSearchPictures {
             image_type: 'photo',
             orientation: 'horizontal',
             safesearch: 'true',
+            per_page: 40,
         };
-
-        const response = await axios.get(`${BASE_URL}?key=${fetchOptions.key}&q=${this.inputValue}&image_type=${fetchOptions.image_type}&orientation=${fetchOptions.orientation}&safesearch=${fetchOptions.safesearch}`);
+        const response = await axios.get(`${BASE_URL}?key=${fetchOptions.key}&q=${this.inputValue}&image_type=${fetchOptions.image_type}&orientation=${fetchOptions.orientation}&per_page=${fetchOptions.per_page}&safesearch=${fetchOptions.safesearch}`);
         if (response.status === 200) {
             this.page += 1;
         };
