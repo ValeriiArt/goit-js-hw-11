@@ -26,7 +26,7 @@ function searchPictures(evt) {
     evt.preventDefault();
     clearResult();
     searchPicturesAPI.inputValue = evt.currentTarget.elements.searchQuery.value;
-    searchPicturesAPI.resetPage();
+    // searchPicturesAPI.resetPage();
     searchPicturesAPI.fetchPictures().then(renderCard);
 }
 
