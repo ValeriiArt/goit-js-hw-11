@@ -79,27 +79,16 @@ function renderCard(data) {
 };
 
 
-// function clearResultMarkup(list, card) {
-    //     if (list && card) {
-        //        refs.countryList.innerHTML = "";
-//         refs.countryCard.innerHTML = ""; 
-//     } else if (list && !card) {
-//         refs.countryList.innerHTML = "";
-//     } else {
-//         refs.countryCard.innerHTML = ""; 
-//     }
-// }
 
 
 
 
+// Notiflix.Notify.success('Sol lucet omnibus');
 
-Notiflix.Notify.success('Sol lucet omnibus');
+// Notiflix.Notify.failure('Qui timide rogat docet negare');
 
-Notiflix.Notify.failure('Qui timide rogat docet negare');
+// Notiflix.Notify.warning('Memento te hominem esse');
 
-Notiflix.Notify.warning('Memento te hominem esse');
-
-Notiflix.Notify.info('Cogito ergo sum');
+// Notiflix.Notify.info('Cogito ergo sum');
 
 
